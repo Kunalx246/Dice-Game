@@ -1,12 +1,10 @@
-
-
 function roll_dice(){
 
 var random_Num1=(Math.floor(Math.random()*6)+1);
 var random_Num2=(Math.floor(Math.random()*6)+1);
 
-var link_1="../images/dice"+random_Num1+".png";
-var link_2="../images/dice"+random_Num2+".png";
+var link_1="./images/dice"+random_Num1+".png";
+var link_2="./images/dice"+random_Num2+".png";
 
 document.querySelectorAll("img")[0].setAttribute("src",link_1);
 document.querySelectorAll("img")[1].setAttribute("src",link_2);
